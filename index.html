@@ -37,23 +37,14 @@
     <div>
 
         <!-- Insert code for Sign In modal here -->
-    </div>
-
-    <div>
-
-        <!-- Insert code for Sign Up modal here -->
         <!-- The Modal -->
         <div id="signInModal" class="modal">
 
             <!-- Modal content-->
             <div class="modalContent">
                 <span class="close">&times;</span>
-                <h2 class="modalTitle">GetStarted</h2>
+                <h2 class="modalTitle">Welcome Back!</h2>
                 <form>
-                    <div class="formGroup">
-                        <label for="fullName">Full Name</label>
-                        <input type="text" id="fullNmame" class="textField" placeholder="Enter Full Name " required>
-                    </div>
                     <div class="formGroup">
                         <label for="userName">Username</label>
                         <input type="text" id="userName" class="textField" placeholder="Enter Username" required>
@@ -62,27 +53,62 @@
                         <label for="password">Password</label>
                         <input type="password" id="password" class="textField" placeholder="Enter Password" required>
                     </div>
-                    <div class="formGroup">
-                        <label for="confrimPassword">Confrim Password</label>
-                        <input type="password" id="confirmPassword" class="textField" placeholder="Confirm Password"
-                            required>
-                    </div>
                     <button type="submit" class="submitBtn">Sign Up</button>
+                    <div class = "formGroup" id="signUpLink">
+                        <span>Not a Member? </span>
+                        <a id="sign-up">Sign Up</a>
+                    </div>
                 </form>
             </div>
 
-    </div>
 
-    <div>
+        </div>
 
-        <!-- Insert code for Create Post modal here -->
+        <div>
 
-    </div>
+            <!-- Insert code for Sign Up modal here -->
+            <!-- The Modal -->
+            <div id="signUpModal" class="modal">
 
-    <!-- Place all Javascript for header in this file -->
-    <script src="js\header.js"></script>
-    <!-- Place all Javascript for rest of the elements in this file -->
-    <script src="js\index.js"></script>
+                <!-- Modal content-->
+                <div class="modalContent">
+                    <span class="close">&times;</span>
+                    <h2 class="modalTitle">GetStarted</h2>
+                    <form>
+                        <div class="formGroup">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" id="fullNmame" class="textField" placeholder="Enter Full Name " required>
+                        </div>
+                        <div class="formGroup">
+                            <label for="userName">Username</label>
+                            <input type="text" id="userName" class="textField" placeholder="Enter Username" required>
+                        </div>
+                        <div class="formGroup">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" class="textField" placeholder="Enter Password"
+                                required>
+                        </div>
+                        <div class="formGroup">
+                            <label for="confrimPassword">Confrim Password</label>
+                            <input type="password" id="confirmPassword" class="textField" placeholder="Confirm Password"
+                                required>
+                        </div>
+                        <button type="submit" class="submitBtn">Sign Up</button>
+                    </form>
+                </div>
+
+            </div>
+
+            <div>
+
+                <!-- Insert code for Create Post modal here -->
+
+            </div>
+
+            <!-- Place all Javascript for header in this file -->
+            <script src="js\header.js"></script>
+            <!-- Place all Javascript for rest of the elements in this file -->
+            <script src="js\index.js"></script>
 
 </body>
 

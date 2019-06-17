@@ -95,6 +95,29 @@ label{
    font-weight: bold;
 }
 
+.submitBtn:hover{
+   cursor: pointer;
+}
+
 .formGroup{
    margin-bottom: 15px;
+}
+
+
+/* Customisation For Sign-In Modal */
+#signUpLink{
+   flex-direction: row;
+   justify-content: center;
+   margin-top: 20px;
+   font-size: larger;
+   font-family: 'Abel',Regular;
+   font-weight: bold;
+}
+
+#sign-up{
+   color: blue;
+   margin-left: 10px;
+}
+#sign-up:hover{
+   cursor: pointer;
 }
