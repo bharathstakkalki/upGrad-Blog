@@ -1,2 +1,32 @@
 /* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
 the title "ScriBBler" & the sub-heading below "ScriBBLer" */
+
+#pageTitle{
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+    color: blue;
+    margin-left: 10px;
+    text-decoration: none
+}
+
+
+.topButtons{
+
+    background-color: blue;
+    color: white;
+    float: right;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    margin: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
+#sub-heading{
+    font-family: 'Satisfy',cursive;
+    margin-left: 10px;
+}
