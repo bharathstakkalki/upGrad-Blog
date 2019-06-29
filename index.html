@@ -20,8 +20,8 @@
         <div class="header">
 
             <!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
-            <button class="topButtons" type="button">Sign In</button>
-            <button class="topButtons" type="button">Sign Up</button>
+            <button class="topButtons" type="button" onclick="signUpClicked()">Sign Up</button>
+            <button class="topButtons" type="button" onclick="signInClicked()">Sign In</button>
             <a id="pageTitle" href="./index.html">ScriBBler</a>
             <p id="sub-heading">Explore, Imagine, Create</p>
 
@@ -42,8 +42,9 @@
 
             <!-- Modal content-->
             <div class="modalContent">
-                <span class="close">&times;</span>
+                <span class="close" onclick="closeModal()">&times;</span>
                 <h2 class="modalTitle">Welcome Back!</h2>
+                 <!-- form for the modal -->
                 <form>
                     <div class="formGroup">
                         <label for="userName">Username</label>
@@ -56,7 +57,7 @@
                     <button type="submit" class="submitBtn">Sign Up</button>
                     <div class = "formGroup" id="signUpLink">
                         <span>Not a Member? </span>
-                        <a id="sign-up">Sign Up</a>
+                        <a id="sign-up" onclick="signUpLinkClicked()">Sign Up</a>
                     </div>
                 </form>
             </div>
@@ -72,8 +73,9 @@
 
                 <!-- Modal content-->
                 <div class="modalContent">
-                    <span class="close">&times;</span>
+                    <span class="close" onclick="closeModal()">&times;</span>
                     <h2 class="modalTitle">GetStarted</h2>
+                    <!-- form for the modal -->
                     <form>
                         <div class="formGroup">
                             <label for="fullName">Full Name</label>
