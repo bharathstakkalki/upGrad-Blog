@@ -124,3 +124,111 @@ label{
 #sign-up:hover{
    cursor: pointer;
 }
+
+/* Place All Posts and Create Post buttons at the vertical and horizontal center of the screen */
+.postButtons{
+   position: absolute;
+   top: 41%;
+   left: 41%;   
+}
+
+/* Style for the Post buttons */
+.postButton{
+
+   background-color:#e6b800 ;
+   color: black;
+   float: right;
+   cursor: pointer;
+   width: 100px;
+   height: 40px;
+   margin: 5px;
+   padding-top: 1px;
+   padding-bottom: 1px;
+   padding-left: 5px;
+   padding-right: 5px;
+   font-weight: bolder;
+  }
+
+/* Style for Post modal content */  
+
+.postContentModal{
+   position: absolute;
+   top: 10px;
+   background-color: #fefefe;
+   margin-left: 200px;
+   margin-top: 0%;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 20px;
+   border: 1px solid #888;
+   width: 70%;
+   height: 80%;
+}
+
+/* Style for Modal Title tab */
+.postFormGroup{
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 15px;
+   margin-left: 15px;
+   margin-right: 15px;
+}
+
+/* Padding between Title and Content tabs of create Post Modal*/
+.padding{
+   padding-bottom: 30px;
+}
+
+/* Style for content text area*/
+.content{
+   background-color:rgb(241,241,241);
+   width: 100%;
+   
+}
+
+.content:focus{
+   background-color: rgb(221,221,221);  
+}
+
+/* Style for close button of Modal */
+.closePostModal {
+   color: #030303;
+   float: right;
+   font-size: 32px;
+   font-weight: bold;
+}
+
+
+.closePostModal:hover,
+.closePostModal:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+/* Style for Modal title*/
+.postModalTitle{
+   font-family: 'Abel',Regular;
+   font-weight: large;
+   text-align: center;
+   padding-bottom: 10px;
+   margin-top: 5px;
+}
+
+#title{
+   width: 50%;
+}
+
+/* Style for create button of create post modal*/
+.createBtn {
+   background-color: #00b300;
+   color: white;
+   height: 30px;
+   width: 80px;
+   border: white;
+   text-align: center;
+   margin: 0;
+   position: relative;
+   left: 48%;
+}
