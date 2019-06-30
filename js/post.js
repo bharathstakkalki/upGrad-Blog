@@ -1,3 +1,4 @@
+
 // This Function is for editing the blog contents
 // On click of Edit button it makes blog title and body editable and allows user to edit the contents. 
 // While in the editable mode it changes the text to Save from Edit
@@ -44,3 +45,4 @@ function postLiked(){
             comments.value=comments.defaultValue;
         }
     }
+
