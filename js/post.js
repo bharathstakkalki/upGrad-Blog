@@ -33,6 +33,7 @@ function postLiked(){
             document.getElementById('commentCount').innerHTML = numberOfClicks + " people have liked this!";
         }
         }
+
     }
 
     // This function is to add comments to the comment area. Latest comments are displayed on top.
