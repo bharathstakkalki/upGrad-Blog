@@ -124,3 +124,27 @@ label{
 #sign-up:hover{
    cursor: pointer;
 }
+
+/* Place All Posts and Create Post buttons at the vertical and horizontal center of the screen */
+.postButtons{
+   position: absolute;
+   top: 41%;
+   left: 41%;   
+}
+
+/* Style for the Post buttons */
+.postButton{
+
+   background-color:#e6b800 ;
+   color: black;
+   float: right;
+   cursor: pointer;
+   width: 100px;
+   height: 40px;
+   margin: 5px;
+   padding-top: 1px;
+   padding-bottom: 1px;
+   padding-left: 5px;
+   padding-right: 5px;
+   font-weight: bolder;
+  }
