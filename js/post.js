@@ -1,3 +1,4 @@
+
 // This Function is for editing the blog contents
 // On click of Edit button it makes blog title and body editable and allows user to edit the contents. 
 // While in the editable mode it changes the text to Save from Edit
@@ -32,4 +33,17 @@ function postLiked(){
             document.getElementById('commentCount').innerHTML = numberOfClicks + " people have liked this!";
         }
         }
+
     }
+
+    // This function is to add comments to the comment area. Latest comments are displayed on top.
+
+    function addComments(id){
+        if(id.value!=id.defaultValue){
+            var addEventName = id.value +'<br>';
+            var comments = document.getElementById('userComments');
+             document.getElementById('addComment').innerHTML = '<p>'+addEventName+'</p>' + document.getElementById('addComment').innerHTML;          
+            comments.value=comments.defaultValue;
+        }
+    }
+

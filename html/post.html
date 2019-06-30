@@ -12,15 +12,18 @@
         <div class="header">
              <!-- Insert code for Sign Up, Sign In button here. 
                Add code for "ScriBBler" heading and the sub-heading -->
+  
           <button class="topButtons" type="button">Sign In</button>    
           <button class="topButtons" type="button">Sign Up</button> 
           <a id="pageTitle" href="./index.html">ScriBBler</a>  
-          <p id="sub-heading">Explore, Imagine, Create</p> 
+          <p id="sub-heading">Explore, Imagine, Create</p>   
         </div>
-
+        <br>
     <div class="blogContent">
         <div id="blogTitle" class="blogTite">
+
         <h5 id="blogTitleNew">The legacy of Jimi Hendrix</h5>
+
     </div>
 
 <div class="blogAuthor">
@@ -44,7 +47,19 @@
         <p id="commentCount">Be the first one to like this!</p> 
     </div>
 
-    <script src="..\js\post.js" defer></script>
+
+    <textarea rows ="5" cols="100" placeholder="Leave a comment..." id="userComments" value=" "></textarea>
+    <br> <br>
+    <button id="addList" onclick="addComments(userComments)">Comment</button>
+
+    <br> <br>
+    <h3 id="commentHeading"> All Comments</h3><br>
+    <section id="commentBox">
+        <span id ="addComment"></span>
+    </section>
+
+
+     <script src="..\js\post.js" defer></script>
     <script src="..\js\header.js">             
     </script>
     
